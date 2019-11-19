@@ -1,7 +1,11 @@
 # Projeto do Curso de Programação Orientada a Objetos
 ### Prof. Silvio Bandeira ###
 
-O sistema pode utilizar telas ASCII (não gráfica) para exibir os menus e ler as opções do usuário/gerente.
+# Sistema da escola
+
+O sistema da escola foi desenvolvido apenas cadastrar, alterar, procurar e remove e muito mais. Projeto sem complexidade e apenas focado POO.
+
+O sistema pode utilizar telas ASCII (não gráfica) para exibir os menus e ler as opções do aluno/professor.
 
 ##### IMPORTANTE:
 
@@ -26,6 +30,3 @@ License
 MIT
 
 =======
-# Sistema da escola
-Trabalho do Projeto de Programação Orientada a Objeto
->>>>>>> c9bf6de5bb620da1b2898fa7160cae2de0fabd95
