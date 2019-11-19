@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Projeto do Curso de Programação Orientada a Objetos
 ### Prof. Silvio Bandeira ###
 
