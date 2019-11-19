@@ -1,11 +1,6 @@
 # Projeto do Curso de Programação Orientada a Objetos
 ### Prof. Silvio Bandeira ###
 
-O sistema da escola foi 
-
-
-
-
 O sistema pode utilizar telas ASCII (não gráfica) para exibir os menus e ler as opções do usuário/gerente.
 
 ##### IMPORTANTE:
