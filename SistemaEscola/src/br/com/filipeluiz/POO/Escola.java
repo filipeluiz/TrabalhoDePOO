@@ -7,24 +7,15 @@ package br.com.filipeluiz.POO;
 public class Escola {
 
     private String nome;
-    private Contato contato;
     private Cadastramento cadastro;
 
     public Escola() {
         this.nome = "";
-        this.contato = new Contato();
         this.cadastro = new Cadastramento();
-    }
-    
-    public Escola(String nome, Contato contato) {
-        this.nome = nome;
-        this.contato = contato;
-        this.cadastro = new Cadastramento();        
     }
     
     public Escola(String nome) {
         this.nome = nome;
-        this.contato = new Contato();
         this.cadastro = new Cadastramento();        
     }
 
@@ -35,14 +26,6 @@ public class Escola {
 
     public void setNome(String nome) {
         this.nome = nome;
-    }
-
-    public Contato getContato() {
-        return this.contato;
-    }
-
-    public void setContato(Contato contato) {
-        this.contato = contato;
     }
 
     public Cadastramento getCadastro() {
