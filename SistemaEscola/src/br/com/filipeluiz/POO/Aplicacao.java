@@ -116,37 +116,18 @@ public class Aplicacao {
                             case 3:
                                 System.out.println("Informe a matricula para procurar");
                                 String matriculaProcure = input.next();
-                                
-                                //Exception
-                                try {
-                                    escola.procurarAluno(matriculaProcure);
-                                } catch(NaoExisteListaException e) {
-                                    System.out.println(e.getMessage());
-                                }
+                                escola.procurarAluno(matriculaProcure);
                                 break;
                             case 4:
                                 System.out.println("Informe a matricula para remover");
                                 String matriculaRemove = input.next();
-                                
-                                //Exception
-                                try {
-                                    escola.removerAluno(matriculaRemove);
-                                } catch(NaoExisteListaException e) {
-                                    System.out.println(e.getMessage());
-                                }
-                                
+                                escola.removerAluno(matriculaRemove);
                                 break;
                             case 5:
                                 System.out.println("Informe a matricula para alterar as informaçẽes.");
                                 String matriculaAlteracao = input.next();
                                 Aluno alunoAlteracao = null;
-                                
-                                //Exception
-                                try {
-                                    alunoAlteracao = escola.acharAluno(matriculaAlteracao);
-                                } catch (NaoExisteListaException e) {
-                                    System.out.println(e.getMessage());
-                                }
+                                alunoAlteracao = escola.acharAluno(matriculaAlteracao);
                                 
                                 if(alunoAlteracao != null) {
                                     boolean sairAlteracao = false;
@@ -393,37 +374,18 @@ public class Aplicacao {
                             case 3:
                                 System.out.println("Informe a matricula para procurar");
                                 String matriculaProcure = input.next();
-
-                                //Exception
-                                try {
-                                    escola.procurarFuncionario(matriculaProcure);
-                                } catch(NaoExisteListaException e) {
-                                    System.out.println(e.getMessage());
-                                }
+                                escola.procurarFuncionario(matriculaProcure);
                                 break;
                             case 4:
                                 System.out.println("Informe a matricula para remover");
                                 String matriculaRemove = input.next();
-
-                                //Exception
-                                try {
-                                    escola.removerFuncionario(matriculaRemove);
-                                } catch(NaoExisteListaException e) {
-                                    System.out.println(e.getMessage());
-                                }
-
+                                escola.removerFuncionario(matriculaRemove);
                                 break;
                             case 5:
                                 System.out.println("Informe a matricula para alterar as informações.");
                                 String matriculaAlteracao = input.next();
                                 Funcionario funcionarioAlteracao = null;
-
-                                //Exception
-                                try {
-                                    funcionarioAlteracao = escola.acharFuncionario(matriculaAlteracao);
-                                } catch (NaoExisteListaException e) {
-                                    System.out.println(e.getMessage());
-                                }
+                                funcionarioAlteracao = escola.acharFuncionario(matriculaAlteracao);    
 
                                 if(funcionarioAlteracao != null) {
                                     boolean sairAlteracao = false;
@@ -514,13 +476,7 @@ public class Aplicacao {
                                 System.out.println("Informe a matricula.");
                                 String matriculaSalario = input.next();
                                 Funcionario FuncionarioAlteraSalario = null;
-
-                                //Exception
-                                try {
-                                    FuncionarioAlteraSalario = escola.acharFuncionario(matriculaSalario);
-                                } catch (NaoExisteListaException e) {
-                                    System.out.println(e.getMessage());
-                                }
+                                FuncionarioAlteraSalario = escola.acharFuncionario(matriculaSalario);
 
                                 if(FuncionarioAlteraSalario != null) {
                                     boolean sairSalario = false;
