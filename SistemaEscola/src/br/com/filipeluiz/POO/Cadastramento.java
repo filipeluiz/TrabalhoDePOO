@@ -192,15 +192,6 @@ public class Cadastramento {
         return null;
     } 
     
-    public boolean isNumeric(String s) {
-        try {
-            Double.parseDouble(s);
-            return true;
-        } catch(NumberFormatException ex) {
-            return false;
-        }
-    }
-    
     public void qtdAlunos() {
         System.out.println("Quantidade dos alunos cadastrados: " + alunos.size());
     }
